@@ -2,6 +2,12 @@
 
 Demo statica in italiano con homepage e pagina Contatti per presentare il restyling della dimora. Palette avorio e sabbia, tipografia Libre Caslon Display / Jost, fotografie reali e logo originale.
 
+## Demo online
+
+https://01121987r-beep.github.io/ansitz-kandelburg-demo/
+
+Pubblicazione tramite GitHub Pages dal ramo `main`, cartella principale. Le modifiche caricate su `main` aggiornano automaticamente la demo. Il file `.nojekyll` abilita la pubblicazione statica diretta.
+
 ## Anteprima
 
 Aprire `index.html` direttamente nel browser, oppure dalla cartella del progetto:
