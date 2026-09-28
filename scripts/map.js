@@ -5,6 +5,7 @@
   if (!container || !window.L) return;
   const position = [46.7964973, 11.6668539];
   const map = L.map(container, { scrollWheelZoom: false, zoomControl: false }).setView(position, 16);
+  map.attributionControl.setPrefix(false);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
