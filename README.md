@@ -32,6 +32,7 @@ Visitare http://127.0.0.1:4178/. Non servono installazione, build o configurazio
 - Galleria ingrandita con pulsanti testuali Precedente/Successiva, tasti freccia della tastiera, chiusura con Escape e focus gestito dal dialogo nativo.
 - Pulsanti dalle forme morbide. Nessun numero decorativo o contatore sulle fotografie; le frecce nel carosello servono alla navigazione.
 - Date, adulti e bambini con riepilogo dimostrativo: date passate e partenze precedenti all’arrivo non ammesse.
+- Calendario personalizzato nella barra e nel modulo, con due mesi su desktop e uno su mobile. Legenda salvia, ocra e terracotta, date selezionate evidenziate e disponibilità esplicitamente simulate. Interfaccia per il futuro backend documentata in `docs/calendar-backend.md`.
 - Entrate allo scorrimento, lieve profondità nella hero, transizioni fotografiche e supporto `prefers-reduced-motion`; in questa modalità le foto non avanzano automaticamente.
 - Approfondimenti dimostrativi per le voci del menu che anticipano il futuro sito multipagina.
 
@@ -43,7 +44,7 @@ Foto, logo e font sono inclusi e usano percorsi relativi. La visualizzazione e l
 
 ## Contenuti e provenienza
 
-Testi nuovi, basati sulle informazioni del sito esistente. Fotografie originali convertite in WebP; nessuna foto stock o generata. Nessun prezzo, recensione, disponibilità o nome di tipologia inventato. La data 1284 indica la prima menzione storica, non l’inizio dell’attività alberghiera. Le immagini delle camere sono presentate come galleria di ambienti, non come catalogo prenotabile.
+Testi nuovi, basati sulle informazioni del sito esistente. Fotografie originali convertite in WebP; nessuna foto stock o generata. Nessun prezzo, recensione o nome di tipologia inventato. Le disponibilità del calendario sono esempi simulati, dichiarati come tali e non collegati all’inventario dell’hotel. La data 1284 indica la prima menzione storica, non l’inizio dell’attività alberghiera. Le immagini delle camere sono presentate come galleria di ambienti, non come catalogo prenotabile.
 
 Font open source con licenze OFL nella cartella `assets/fonts`. Il logo riporta il payoff tedesco originale, mantenuto come parte dell’identità del marchio.
 

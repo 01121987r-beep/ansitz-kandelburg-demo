@@ -45,3 +45,12 @@ Apertura da Prenota e Immagina il tuo soggiorno verificata; apertura anche sulla
 ## Richiesta diretta e composizione soggiorno
 
 Testi aggiornati, campi Adulti/Bambini e pulsante centrato. Verifica mobile a 390 px e desktop a 1440 px. Date 14–17 ottobre 2026, 2 adulti e 2 bambini trasferiti al modulo e riportati nel riepilogo dimostrativo. HTML e sintassi JavaScript validati.
+
+## Calendario personalizzato — 28 settembre 2026
+
+- Calendario a due mesi su desktop e un mese a 390/320 px; nessun overflow orizzontale rilevato. Ispezione visiva desktop e mobile completata.
+- Selezione 14–17 ottobre dalla barra e trasferimento al modulo verificati. L’arrivo passa automaticamente alla scelta della partenza.
+- Disponibilità simulate: il 12 ottobre è disabilitato come arrivo. Con arrivo il 10, partenza il 12 consentita, il 13 e il 14 disabilitati perché attraversano una notte indisponibile.
+- Navigazione con frecce della tastiera verificata. Escape chiude il calendario, mantiene aperto il modulo sottostante e restituisce il focus al campo data.
+- Nella pagina Contatti l’invio del modulo vuoto apre il calendario sul primo campo data obbligatorio.
+- Nessun invio all’hotel o verifica di inventario reale: colori, disponibilità e risposta del modulo sono dimostrativi.

@@ -228,6 +228,7 @@
   function openDialog(dialog) {
     closeLanguages(); closeMenu();
     if (dialog === inquiry) $('#booking-result').hidden = true;
+    window.KandelburgCalendar?.refresh();
     dialog.showModal();
     document.body.classList.add('modal-open');
   }
