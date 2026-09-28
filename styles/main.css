@@ -160,7 +160,11 @@ dialog{color:var(--ink);background:var(--ivory);border:0;padding:0;max-height:ca
 @media(min-width:1001px) and (max-width:1250px){.stay-bar{gap:20px;padding-inline:30px}.stay-bar-heading{flex-basis:215px}.stay-bar-heading h2{font-size:24px}.stay-form{gap:12px}.stay-field{padding-left:10px}.stay-field input,.stay-field select{font-size:12px}.stay-form>.button{font-size:11px;padding-inline:16px}}
 
 /* Large contact symbol and a headset operator for the assistant. */
-.floating-actions .messaging-toggle{width:56px;height:56px;min-height:56px;padding:6px!important;flex-shrink:0;color:var(--bronze)}
+.floating-actions .messaging-toggle{width:56px;height:56px;min-height:56px;padding:6px!important;flex-shrink:0;color:#28764c}
 .floating-actions .messaging-toggle svg{width:44px;height:44px}
 .floating-actions .chat-toggle svg{width:28px;height:28px}
 @media(max-width:700px){.floating-actions .messaging-toggle{width:52px;height:52px;min-height:52px;padding:5px!important}.floating-actions .messaging-toggle svg{width:42px;height:42px}.floating-actions .chat-toggle svg{width:26px;height:26px}}
+
+/* Gentle floating motion; controls stay still during interaction. */
+@keyframes assistance-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:no-preference){.floating-actions>button{animation:assistance-float 4s ease-in-out infinite}.floating-actions>.chat-toggle{animation-delay:-1.6s}.floating-actions:hover>button,.floating-actions:focus-within>button,.floating-assistance:has([aria-expanded=true]) .floating-actions>button{animation-play-state:paused}}
