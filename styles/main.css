@@ -158,3 +158,9 @@ dialog{color:var(--ink);background:var(--ivory);border:0;padding:0;max-height:ca
 /* Desktop booking bar: one horizontally aligned row. */
 @media(min-width:1001px){.stay-bar{display:flex;align-items:center;gap:28px}.stay-bar-heading{flex:0 0 250px}.stay-bar-heading h2{font-size:27px;line-height:1.13}.stay-form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr)) auto;align-items:center;gap:18px;min-width:0}.stay-field{align-self:center;max-width:none;padding-left:15px}.stay-form>.button{grid-column:auto;justify-self:end;align-self:center;min-width:0;min-height:48px;padding:14px 22px;white-space:nowrap;font-size:12px}.stay-field input,.stay-field select{height:40px}.stay-field label{margin-bottom:5px}}
 @media(min-width:1001px) and (max-width:1250px){.stay-bar{gap:20px;padding-inline:30px}.stay-bar-heading{flex-basis:215px}.stay-bar-heading h2{font-size:24px}.stay-form{gap:12px}.stay-field{padding-left:10px}.stay-field input,.stay-field select{font-size:12px}.stay-form>.button{font-size:11px;padding-inline:16px}}
+
+/* Large, restrained contact symbol and a distinct robot for the assistant. */
+.floating-actions .messaging-toggle{width:56px;height:56px;min-height:56px;padding:6px!important;flex-shrink:0;color:var(--bronze)}
+.floating-actions .messaging-toggle svg{width:44px;height:44px}
+.floating-actions .chat-toggle svg{width:28px;height:28px}
+@media(max-width:700px){.floating-actions .messaging-toggle{width:52px;height:52px;min-height:52px;padding:5px!important}.floating-actions .messaging-toggle svg{width:42px;height:42px}.floating-actions .chat-toggle svg{width:26px;height:26px}}
