@@ -162,8 +162,8 @@ dialog{color:var(--ink);background:var(--ivory);border:0;padding:0;max-height:ca
 /* Large contact symbol and a headset operator for the assistant. */
 .floating-actions .messaging-toggle{width:56px;height:56px;min-height:56px;padding:6px!important;flex-shrink:0;color:#28764c}
 .floating-actions .messaging-toggle svg{width:44px;height:44px}
-.floating-actions .chat-toggle svg{width:28px;height:28px}
-@media(max-width:700px){.floating-actions .messaging-toggle{width:52px;height:52px;min-height:52px;padding:5px!important}.floating-actions .messaging-toggle svg{width:42px;height:42px}.floating-actions .chat-toggle svg{width:26px;height:26px}}
+.floating-actions .chat-toggle svg{width:30px;height:30px}
+@media(max-width:700px){.floating-actions .messaging-toggle{width:52px;height:52px;min-height:52px;padding:5px!important}.floating-actions .messaging-toggle svg{width:42px;height:42px}.floating-actions .chat-toggle svg{width:28px;height:28px}}
 
 /* Gentle floating motion; controls stay still during interaction. */
 @keyframes assistance-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
