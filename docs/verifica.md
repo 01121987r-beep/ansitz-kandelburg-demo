@@ -41,3 +41,7 @@ La verifica copre una demo statica nel browser integrato. Le funzionalità comme
 ## Modulo prenotazione
 
 Apertura da Prenota e Immagina il tuo soggiorno verificata; apertura anche sulla pagina Contatti. Compilazione con dati fittizi e riepilogo dimostrativo verificati. Trasferimento dalla barra homepage di arrivo 10/11/2026, partenza 13/11/2026 e 3 ospiti verificato. Modulo controllato a 1440 e 390 px, senza overflow; chiusura disponibile senza cerchio. Nessun errore di parsing HTML o console.
+
+## Richiesta diretta e composizione soggiorno
+
+Testi aggiornati, campi Adulti/Bambini e pulsante centrato. Verifica mobile a 390 px e desktop a 1440 px. Date 14–17 ottobre 2026, 2 adulti e 2 bambini trasferiti al modulo e riportati nel riepilogo dimostrativo. HTML e sintassi JavaScript validati.

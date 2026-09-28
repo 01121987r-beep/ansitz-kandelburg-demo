@@ -31,7 +31,7 @@ Visitare http://127.0.0.1:4178/. Non servono installazione, build o configurazio
 - Switch IT / DE / EN: italiano attivo, altre lingue indicate come prossimamente disponibili.
 - Galleria ingrandita con pulsanti testuali Precedente/Successiva, tasti freccia della tastiera, chiusura con Escape e focus gestito dal dialogo nativo.
 - Pulsanti dalle forme morbide. Nessun numero decorativo o contatore sulle fotografie; le frecce nel carosello servono alla navigazione.
-- Date e ospiti con riepilogo dimostrativo: date passate e partenze precedenti all’arrivo non ammesse.
+- Date, adulti e bambini con riepilogo dimostrativo: date passate e partenze precedenti all’arrivo non ammesse.
 - Entrate allo scorrimento, lieve profondità nella hero, transizioni fotografiche e supporto `prefers-reduced-motion`; in questa modalità le foto non avanzano automaticamente.
 - Approfondimenti dimostrativi per le voci del menu che anticipano il futuro sito multipagina.
 
@@ -55,4 +55,4 @@ Leaflet 1.9.4 incluso in `assets/vendor/leaflet` con licenza BSD; cartografia at
 
 ## Modulo soggiorno
 
-I pulsanti Prenota e Informazioni sulle camere e le voci Richiesta e prenotazione aprono il modulo con date, ospiti, camere, nome, email, telefono facoltativo e note. Le date e gli ospiti selezionati nella barra della homepage vengono riportati nel modulo. La richiesta è una simulazione locale: nessun invio, salvataggio o conferma commerciale.
+I pulsanti Prenota e Informazioni sulle camere e le voci Richiesta e prenotazione aprono il modulo con date, adulti, bambini, camere, nome, email, telefono facoltativo e note. Le date, gli adulti e i bambini selezionati nella barra della homepage vengono riportati nel modulo. La richiesta è una simulazione locale: nessun invio, salvataggio o conferma commerciale.

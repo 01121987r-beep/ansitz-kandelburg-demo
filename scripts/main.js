@@ -287,7 +287,7 @@
     }
     const prettyDate = value => new Date(`${value}T12:00:00`).toLocaleDateString('it-IT', {day:'numeric',month:'long',year:'numeric'});
     const result = $('#booking-result');
-    result.textContent = `Anteprima della richiesta: ${prettyDate(bookingArrival.value)} – ${prettyDate(bookingDeparture.value)}, ${$('#booking-guests').selectedOptions[0].textContent}, ${$('#booking-rooms').selectedOptions[0].textContent}. Nessun messaggio è stato inviato e nessuna prenotazione è stata effettuata. Per prenotare, contatta info@ansitz.org.`;
+    result.textContent = `Anteprima della richiesta: ${prettyDate(bookingArrival.value)} – ${prettyDate(bookingDeparture.value)}, ${$('#booking-adults').selectedOptions[0].textContent}, ${$('#booking-children').selectedOptions[0].textContent.toLocaleLowerCase('it')}, ${$('#booking-rooms').selectedOptions[0].textContent}. Nessun messaggio è stato inviato e nessuna prenotazione è stata effettuata. Per prenotare, contatta info@ansitz.org.`;
     result.hidden = false;
     result.focus();
   });
@@ -313,12 +313,13 @@
     if (departure.value <= arrival.value) { departure.setCustomValidity('La partenza deve essere successiva all’arrivo.'); departure.reportValidity(); return; }
     departure.setCustomValidity('');
     const italianDate = value => new Date(`${value}T12:00:00`).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
-    $('#stay-summary').textContent = `${italianDate(arrival.value)} — ${italianDate(departure.value)} · ${$('#guests').selectedOptions[0].textContent}`;
+    $('#stay-summary').textContent = `${italianDate(arrival.value)} — ${italianDate(departure.value)} · ${$('#adults').selectedOptions[0].textContent} · ${$('#children').selectedOptions[0].textContent.toLocaleLowerCase('it')}`;
     $('#stay-summary').hidden = false;
     bookingArrival.value = arrival.value;
     updateBookingDeparture();
     bookingDeparture.value = departure.value;
-    $('#booking-guests').selectedIndex = $('#guests').selectedIndex;
+    $('#booking-adults').value = $('#adults').value;
+    $('#booking-children').value = $('#children').value;
     openDialog(inquiry);
   });
   departure.addEventListener('input', () => departure.setCustomValidity(''));
